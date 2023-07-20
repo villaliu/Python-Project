@@ -1,0 +1,17 @@
+The hardest parts of designing the game would be the tile placement and the game behavior realization. 
+After consideration, I decide to use the class objects rather than procedural nesting because class objects
+need less coding and save lots of space. 
+I create 2 classes to help me coding the game. They are class Tile and class Counter. class Tile helps me to load
+tiles onto screen and set their position, their image attached, swap them. class Tile implements tile placement 
+and behavior. class Counter helps me to count how many times the user is swapping.
+After finishing tile placement by utilizing class tile, I use a screenonclick help fuction to implement game rules
+with class Counter.
+For the leaderborad, I create a file called leaderboard and append to it each time a winner appears to keep track
+of the winners. The leaderborad then will only load the latest four winner on the game. 
+
+
+A note regarding my screensize:
+on my screen,  if I use screen.setup, the turtle screen can not show completely and  will move to the 
+top of my computer screen. After discussing the issue in the lab session with 2 TAs, I was suggested
+to use screensize instead. It may result to scrolling all the time, but at least it works.
+ 

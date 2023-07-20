@@ -1,0 +1,3 @@
+Sat Dec 10 01:07:30 2022:Error: Could not open leaderboard.txt LOCATION: load_winners()
+Sat Dec 10 01:07:39 2022:Error: Could not find the puz LOCATION: screenonclick()
+Sat Dec 10 01:07:47 2022:Error: Could not find the puz LOCATION: screenonclick()
